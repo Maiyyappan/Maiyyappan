@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int N,count=0,pow,temp,rem,i,sum=0,temp1;
+	scanf("%d",&N);
+	temp=N;
+	temp1=N;
+	while(N!=0)
+	{
+		N=N/10;
+		count++;
+	}
+	while(temp!=0)
+	{
+		rem=temp%10;
+		pow=1;
+		for(i=0;i<count;i++)
+		{
+			pow=pow*rem;
+		}
+		sum=sum+pow;
+		temp=temp/10;
+	}
+	if(sum==temp1)
+	{
+		printf("yes");
+	}
+	else
+	{
+		printf("no");
+	}
+	getch();
+}

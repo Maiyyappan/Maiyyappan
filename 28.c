@@ -3,7 +3,7 @@
 void main()
 {
 int a[10],i,n;
-printf("enter the limimt");
+printf("enter the limit");
 scanf("%d",&n);
 printf("enter the element");
 for(i=0;i<n;i++)

@@ -2,8 +2,8 @@
 #include<conio.h>
 void main()
 {
-int n,a,b,c,i;
-scanf("%d",&n);
+int n1,a,b,c,i;
+scanf("%d",&n1);
 a=0;
 b=1;
 printf("%d%d",a,b);

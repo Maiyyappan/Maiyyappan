@@ -5,10 +5,10 @@ int n;
 scanf("%d",&n);
 if(n%2==0)
 {
-printf(" %d is power of 2",n);
+printf("yes");
 }
 else
 {
-printf("not a power of two");
+printf("no");
 }
 }

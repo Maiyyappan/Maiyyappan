@@ -1,0 +1,77 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i,j,n;
+    char a[10000];
+      scanf("%s",&a);
+    for(i=0;a[i]!='\0';i++);
+    n=i;
+    for(i=0;i<n;i++)
+    {
+        if(a[i]=='-')
+        {
+            if(a[i+1]=='0'&&a[i+2]=='1')
+            {
+                printf("January");
+                break;
+            }
+            if(a[i+1]=='0'&&a[i+2]=='2')
+            {
+                printf("February");
+                break;
+            }
+            if(a[i+1]=='0'&&a[i+2]=='3')
+            {
+                printf("March");
+                break;
+            }
+            if(a[i+1]=='0'&&a[i+2]=='4')
+            {
+                printf("April");
+                break;
+            }
+            if(a[i+1]=='0'&&a[i+2]=='5')
+            {
+                printf("May");
+                break;
+            }
+            if(a[i+1]=='0'&&a[i+2]=='6')
+            {
+                printf("June");
+                break;
+            }
+            if(a[i+1]=='0'&&a[i+2]=='7')
+            {
+                printf("July");
+                break;
+            }
+            if(a[i+1]=='0'&&a[i+2]=='8')
+            {
+                printf("August");
+                break;
+            }
+            if(a[i+1]=='0'&&a[i+2]=='9')
+            {
+                printf("September");
+                break;
+            }
+            if(a[i+1]=='1'&&a[i+2]=='0')
+            {
+                printf("October");
+                break;
+            }
+            if(a[i+1]=='1'&&a[i+2]=='1')
+            {
+                printf("January");
+                break;
+            }
+            if(a[i+1]=='1'&&a[i+2]=='2')
+            {
+                printf("December");
+                break;
+            }
+        }
+    }
+    getch();
+}
